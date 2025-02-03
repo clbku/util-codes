@@ -5,7 +5,7 @@ A subsequence of a string is a new string that is formed from the original strin
 
 i.e., "ace" is a subsequence of "abcde" while "aec" is not.
  */
-export const isSubsequence = (s: string, t: string): boolean => {
+export function isSubsequence(s: string, t: string): boolean {
     if (s.length === 0) { return true }
     if (t.length === 0) { return false }
 
